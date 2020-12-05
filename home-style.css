@@ -1,0 +1,31 @@
+@media only screen and (min-width: 769px){
+    .row {
+        display: flex;
+    }
+
+    .pic {
+        height: 300px;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .row {
+        display: flex;
+    }
+    .pic {
+        height: 150px;
+        overflow: hidden;
+    }
+}
+
+@media only screen and(max-width: 480px) {
+    .row {
+        display: flex;
+    }
+    .pic {
+        height: 50px;
+        overflow: hidden;
+    }
+}
+

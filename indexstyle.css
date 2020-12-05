@@ -1,0 +1,478 @@
+@media only screen and (min-width: 769px) {
+
+	body {
+		background-color: aliceblue;
+        padding-left: 20px;
+        padding-right: 20px;
+	}
+
+	h1 {
+		font-family: arial black;
+		font-size: 50px;
+		color: green;
+	}
+
+	h2 {
+		font-family: arial black;
+		color: green;
+	}
+
+	h3 {
+		font-family: arial black;
+		color: green;
+	}
+
+	label {
+		color: green;
+		font-family: arial;
+	}
+
+	#address {
+		position: relative;
+		left: 300px;
+		bottom: 138px;
+	}
+
+	#rdesc {
+		padding: 50px;
+		height: 30px;
+	}
+
+	#city-state-zip {
+		position: relative;
+		left: 480px;
+		bottom: 178px;
+	}
+
+	#phone-number {
+		position: relative;
+		left: 300px;
+		bottom: 175px;
+	}
+
+	#email-address {
+		position: relative;
+		left: 480px;
+		bottom: 214px;
+	}
+
+	#add-img {
+		position: relative;
+		bottom: 145px;
+	}
+
+	#img {
+		position: relative;
+		bottom: 120px;
+	}
+	
+	#img1 {
+		position: relative;
+		bottom: 120px;
+	}
+
+	#img2 {
+		position: relative;
+		bottom: 120px;
+	}
+
+	#imgb {
+		position: relative;
+		bottom: 120px;
+	}
+
+	#menu-title {
+		position: relative;
+		bottom: 70px;
+	}
+	
+	#section {
+		position: relative;
+		bottom: 42px;
+	}
+	
+	#dish-name {
+		position: relative;
+		left: 310px;
+		bottom: 130px;
+	}
+
+	#price-input {
+		position: relative;
+		left: 490px;
+		bottom: 170px;
+	}
+	
+	#price {
+		width: 70px;
+	}
+
+	#dish-desc {
+		position: relative;
+		left: 310px;
+		bottom: 160px;
+	}
+
+	#ddesc {
+		width: 250px;
+	}
+	
+	#dish-pic {
+		position: relative;
+		left: 600px;
+		bottom: 180px;
+	}
+
+	#add-dish {
+		position: relative;
+		bottom: 160px;
+	}
+
+	#sec-button {
+		position: relative;
+		bottom: 135px;
+	}
+
+	.socials {
+		position: relative;
+		bottom: 90px;
+	}
+
+	#submit-button {
+		position: relative;
+		bottom: 90px;
+	}
+    .button {
+        background-color: green;
+        color: white;
+        padding: 10px 30px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	body {
+		background-color: aliceblue;
+        padding-left: 10px;
+        padding-right: 10px;
+	}
+
+	h1 {
+		font-family: arial black;
+		font-size: 50px;
+		color: green;
+	}
+
+	h2 {
+		font-family: arial black;
+		color: green;
+	}
+
+	h3 {
+		font-family: arial black;
+		color: green;
+	}
+
+	label {
+		color: green;
+		font-family: arial;
+	}
+
+	#address {
+		position: relative;
+		left: 300px;
+		bottom: 138px;
+	}
+
+	#rdesc {
+		padding: 50px;
+		height: 30px;
+	}
+
+	#city-state-zip {
+		position: relative;
+		left: 480px;
+		bottom: 178px;
+	}
+
+	#phone-number {
+		position: relative;
+		left: 300px;
+		bottom: 175px;
+	}
+
+	#email-address {
+		position: relative;
+		left: 480px;
+		bottom: 214px;
+	}
+
+	#add-img {
+		position: relative;
+		bottom: 145px;
+	}
+
+	#img {
+		position: relative;
+		bottom: 120px;
+	}
+	
+	#img1 {
+		position: relative;
+		left: 75px;
+		bottom: 120px;
+	}
+
+	#img2 {
+		position: relative;
+		left: 365px;
+		bottom: 141px;
+	}
+
+	#imgb {
+		position: relative;
+		left: 290px;
+		bottom: 142px;
+	}
+
+	#menu-title {
+		position: relative;
+		bottom: 70px;
+	}
+	
+	#section {
+		position: relative;
+		bottom: 42px;
+	}
+	
+	#dish-name {
+		position: relative;
+		left: 310px;
+		bottom: 130px;
+	}
+
+	#price-input {
+		position: relative;
+		left: 490px;
+		bottom: 170px;
+	}
+	
+	#price {
+		width: 70px;
+	}
+
+	#dish-desc {
+		position: relative;
+		left: 310px;
+		bottom: 160px;
+	}
+
+	#ddesc {
+		width: 250px;
+	}
+	
+	#dish-pic {
+		position: relative;
+		left: 310px;
+		bottom: 150px;
+	}
+
+	#add-dish {
+		position: relative;
+		bottom: 100px;
+	}
+
+	#sec-button {
+		position: relative;
+		bottom: 76px;
+	}
+
+	.socials {
+		position: relative;
+		bottom: 90px;
+	}
+
+	#submit-button {
+		position: relative;
+		bottom: 90px;
+	}
+    .button {
+        background-color: green;
+        color: white;
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+	#slider-image { max-width: 100%; }
+ 	#flash-ad { display: none; }
+	body {
+		background-color: aliceblue;
+        padding-left: 10px;
+        padding-right: 10px;
+	}
+
+	h1 {
+		font-family: arial black;
+		font-size: 50px;
+		color: red;
+	}
+
+	h2 {
+		font-family: arial black;
+		color: green;
+	}
+
+	h3 {
+		font-family: arial black;
+		color: green;
+	}
+
+	label {
+		color: green;
+		font-family: arial;
+	}
+
+	#address {
+		position: relative;
+		left: 300px;
+		bottom: 138px;
+	}
+	
+	#addr {
+		width: 100px;
+	}
+
+	#rdesc {
+		padding: 50px;
+		height: 30px;
+	}
+
+	#city-state-zip {
+		position: relative;
+		left: 300px;
+		bottom: 90px;
+	}
+
+	#csz {
+		width: 100px;
+	}
+
+	#phone-number {
+		position: relative;
+		left: 300px;
+		bottom: 175px;
+	}
+
+	#pnum {
+		width: 100px;
+	}
+
+	#email-address {
+		position: relative;
+		left: 300px;
+		bottom: 123px;
+	}
+
+	#email {
+		width: 100px;
+	}
+
+	#add-img {
+		position: relative;
+		bottom: 145px;
+	}
+
+	#img {
+		position: relative;
+		bottom: 120px;
+	}
+	
+	#img1 {
+		position: relative;
+		left: -257px;
+		bottom: 95px;
+	}
+
+	#img2 {
+		position: relative;
+		left: 0px;
+		bottom: 90px;
+	}
+
+	#imgb {
+		position: relative;
+		left: -257px;
+		bottom: 65px;
+	}
+
+	#menu-title {
+		position: relative;
+		bottom: 70px;
+	}
+	
+	#section {
+		position: relative;
+		bottom: 42px;
+	}
+	
+	#dish-name {
+		position: relative;
+		left: 310px;
+		bottom: 130px;
+	}
+
+	#dname {
+		width: 75px;
+	}
+
+	#price-input {
+		position: relative;
+		left: 310px;
+		bottom: 128px;
+	}
+	
+	#price {
+		width: 70px;
+	}
+
+	#dish-desc {
+		position: relative;
+		left: 310px;
+		bottom: 124px;
+	}
+
+	#ddesc {
+		width: 70px;
+	}
+	
+	#dish-pic {
+		position: relative;
+		left: 310px;
+		bottom: 120px;
+    }
+
+	#add-dish {
+		position: relative;
+		bottom: 100px;
+	}
+
+	#sec-button {
+		position: relative;
+		bottom: 76px;
+	}
+
+	.socials {
+		position: relative;
+		bottom: 90px;
+	}
+
+	#submit-button {
+		position: relative;
+		bottom: 90px;
+	}
+    .button {
+        background-color: green;
+        color: white;
+        padding: 15px;
+    }
+}

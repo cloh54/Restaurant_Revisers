@@ -1,0 +1,119 @@
+@media only screen and (min-width: 769px){
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: firebrick;
+    }
+    li {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 10px 100px;
+    }
+    li a {
+        color: white;
+        text-decoration: none;
+    }
+    li:hover {
+        background-color:brown;
+    }
+
+    h1 {
+        text-indent: 80px;
+    }
+
+    .set {
+        border-style: solid;
+        border-width: 3px;
+        border-color: darkred;
+    }
+
+    section {
+        padding: 50px;
+    }
+    .button {
+        background-color: green;
+        color: white;
+        padding: 10px 30px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: firebrick;
+    }
+    li {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 8px 50px;
+    }
+    li a {
+        color: white;
+        text-decoration: none;
+    }
+    li:hover {
+        background-color: brown;
+    }
+    h1 {
+        text-indent: 80px;
+    }
+    .set {
+        border-style: solid;
+        border-width: 3px;
+        border-color: darkred;
+    }
+    section {
+        padding: 30px;
+    }
+    .button {
+        background-color: green;
+        color: white;
+        padding: 10px 30px;
+    }
+}
+
+@media only screen and(max-width: 480px) {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: firebrick;
+    }
+    li {
+        color: white;
+        display: block;
+        text-align: center;
+        padding: 5px;
+    }
+    li a {
+        color: white;
+        text-decoration: none;
+    }
+    li:hover {
+        background-color:brown;
+    }
+    h1 {
+        text-indent: 30px;
+    }
+    .set {
+        border-style: solid;
+        border-width: 3px;
+        border-color: darkred;
+    }
+    section {
+        padding: 10px;
+    }
+    .button {
+        background-color: green;
+        color: white;
+        padding: 10px 30px;
+    }
+}
