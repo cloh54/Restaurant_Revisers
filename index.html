@@ -5,61 +5,62 @@
     </head>
 
     <body>
-        <h1>Restaurant Revisers</h1>
-        <h3>Fill out info on your restaurant: </h3>
+        <input type="button" id="dark" value="Dark Mode">
+        <h1 class="changeGreen">Restaurant Revisers</h1>
+        <h3 class="changeGreen">Fill out info on your restaurant: </h3>
         <form action="/action_page.php">
-            <label for="rname">Name of restaurant:</label><br>
-            <input type="text" id="rname" name="rname"><br>		
-            <label for="rdesc">Description of restaurant:</label><br>
-            <input type="text" id="rdesc" name="rdesc"><br>
+            <label class="changeGreen" for="rname">Name of restaurant:</label><br>
+            <input type="text" class="changeBox" id="rname"><br>		
+            <label for="rdesc" class="changeGreen">Description of restaurant:</label><br>
+            <input type="text" id="rdesc" class="changeBox" name="rdesc"><br>
 	    <div id="address">
-            	<label for="addr">Address:</label><br>
-            	<input type="text" id="addr" name="addr"><br>
+            	<label class="changeGreen" for="addr">Address:</label><br>
+            	<input type="text" class="changeBox" id="addr" name="addr"><br>
 	    </div>
 	    <div id="city-state-zip">
-            	<label for="csz">City, State, Zip:</label><br>
-            	<input type="text" id="csz" name="csz"><br>
+            	<label class="changeGreen" for="csz">City, State, Zip:</label><br>
+            	<input type="text" id="csz" class="changeBox"><br>
 	    </div>
 	    <div id="phone-number">
-            	<label for="pnum">Phone number:</label><br>
-            	<input type="text" id="pnum" name="pnum"><br>
+            	<label class="changeGreen" for="pnum">Phone number:</label><br>
+            	<input type="text" id="pnum" class="changeBox"><br>
 	    </div>
 	    <div id="email-address">
-            	<label for="email">E-mail:</label><br>
-            	<input type="text" id="email" name="email"><br>
+            	<label class="changeGreen" for="email">E-mail:</label><br>
+            	<input type="text" id="email" class="changeBox"><br>
 	    </div>
 	    <div id="add-img">
-            	<label for="img">Add images of restuarant:</label>
+            	<label class="changeGreen" for="img">Add images of restuarant:</label>
 	    </div>
-            <input type="file" id="img" name="img" accept="image/*">
-            <input type="file" id="img1" name="img1" accept="image/*">
-            <input type="file" id="img2" name="img2" accept="image/*">
+            <input type="file" id="img" class="changeWhite" accept="image/*">
+            <input type="file" id="img1" class="changeWhite" accept="image/*">
+            <input type="file" id="img2" class="changeWhite" accept="image/*">
             <input type="button" id="imgb" value="Upload more images">
             <div class="container">       
 		<div id="menu-title">
-                	<h3>Fill out info on your menu:</h3>
+                	<h3 class="changeGreen">Fill out info on your menu:</h3>
                 </div>
                 <div class="container">
 		    <div id="section">
-                    	<label for="sec">Section of Menu (ex. Apps, Main. etc.):</label><br>
-                   	 <input type="text" id="sec" name="sec"><br>
+                    	<label class="changeGreen" for="sec">Section of Menu (ex. Apps, Main. etc.):</label><br>
+                   	 <input type="text" id="sec" class="changeBox"><br>
 		    </div>
                     <div class="container">      
 			<div id="dish-name">
-                        	<label for="dname">Dish name:</label><br>
-                        	<input type="text" id="dname" name="dname"><br>
+                        	<label class="changeGreen" for="dname">Dish name:</label><br>
+                        	<input type="text" id="dname" class="changeBox"><br>
 			</div>
 			<div id="price-input">
-                        	<label for="price">Price:</label><br>
-                        	<input type="text" id="price" name="price"><br>
+                        	<label class="changeGreen" for="price">Price:</label><br>
+                        	<input type="text" id="price" class="changeBox"><br>
 			</div>
 			<div id="dish-desc">
-                        	<label for="ddesc">(optional) dish description:</label><br>
-                        	<input type="text" id="ddesc" name="ddesc"><br>
+                        	<label class="changeGreen" for="ddesc">(optional) dish description:</label><br>
+                        	<input type="text" id="ddesc" class="changeBox"><br>
 			</div>
 			<div id="dish-pic">
-                        	<label for="dimg">(optional) picture of dish:</label>
-                        	<input type="file" id="dimg" name="dimg" accept="image/*">
+                        	<label class="changeGreen" for="dimg">(optional) picture of dish:</label>
+                        	<input type="file" id="dimg" class="changeWhite" accept="image/*">
 			</div>
                     </div>
                     <input type="button" id="add-dish" value="Add another dish">
@@ -69,20 +70,20 @@
             </div>
              
             <div class="socials">
-                <h3>Fill out info on any social media you'd like to link to: </h3>
-                <label for="yelp">Yelp page link:</label><br>
-                <input type="text" id="yelp" name="yelp"><br>
-                <label for="fbook">Facebook page link:</label><br>
-                <input type="text" id="fbook" name="fbook"><br>
-                <label for="googbiz">Google Business page link:</label><br>
-                <input type="text" id="googbiz" name="googbiz"><br>
+                <h3 class="changeGreen">Fill out info on any social media you'd like to link to: </h3>
+                <label class="changeGreen" for="yelp">Yelp page link:</label><br>
+                <input type="text" id="yelp" class="changeBox"><br>
+                <label class="changeGreen" for="fbook">Facebook page link:</label><br>
+                <input type="text" id="fbook" class="changeBox"><br>
+                <label class="changeGreen" for="googbiz">Google Business page link:</label><br>
+                <input type="text" id="googbiz" class="changeBox"><br>
             <br><br>
             <div class="style">
-                <h3>Style Your Website</h3>
-                <label>Background Color: </label><input type=color><br>
-                <label>Font Color: </label><input type=color><br>
-                <label>Navigation-Bar Color: </label><input type=color><br>
-                <label>Title Font: </label>
+                <h3 class="changeGreen">Style Your Website</h3>
+                <label class="changeGreen">Background Color: </label><input type=color><br>
+                <label class="changeGreen">Font Color: </label><input type=color><br>
+                <label class="changeGreen">Navigation-Bar Color: </label><input type=color><br>
+                <label class="changeGreen">Title Font: </label>
                 <select name = "fonts">
                     <option>Arial</option>
                     <option>Arial Black</option>
@@ -98,7 +99,7 @@
                     <option>Trebuchet MS</option>
                     <option>Comic Sans MS</option>
                 </select><br>
-                <label>Body Font</label>
+                <label class="changeGreen">Body Font</label>
                 <select name = "fonts">
                     <option>Arial</option>
                     <option>Arial Black</option>
@@ -120,7 +121,7 @@
             </div>
             <input type="submit" id="submit-button">
         </form>
-        <button class="button" id="sample">See Sample</button>
+        <input type="button" class="button" id="sample" value="See Sample">
         
         <script src="index.js"></script>
     </body>
