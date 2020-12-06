@@ -147,6 +147,15 @@
         color: white;
         padding: 10px 30px;
     }
+    .button:hover {
+        background-color: forestgreen;
+    }
+    #dark {
+        float: right;
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -299,6 +308,15 @@
         background-color: green;
         color: white;
         padding: 15px;
+    }
+    .button:hover {
+        background-color: forestgreen;
+    }
+    #dark {
+        float: right;
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
     }
 }
 
@@ -474,5 +492,14 @@
         background-color: green;
         color: white;
         padding: 15px;
+    }
+    .button:hover {
+        background-color: forestgreen;
+    }
+    #dark {
+        float: right;
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
     }
 }
