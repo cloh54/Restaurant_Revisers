@@ -57,7 +57,7 @@ darklight.addEventListener('click', function () {
 
 submit.addEventListener('click', function() {
     "use strict";
-    var i;
+    var i, j, k;
     var name = document.getElementById("rname").value;
     var desc = document.getElementById("rdesc").value;
     var csz = document.getElementById("csz").value;
@@ -79,19 +79,39 @@ submit.addEventListener('click', function() {
     var navbarColor = document.getElementById("nbcolor").value;
     var titleFont = document.getElementById("tFont").value;
     var bodyFont = document.getElementById("bFont").value;
+    var navbarText = document.getElementById("nbtcolor").value;
     
     var newSite = window.open();
-    var html = "<html><head></head><body><h1 id=title class=txt>"+name+"</h1><nav><ul id=nav><li>Home</li><li>Menu</li><li>Contact us</li></ul></nav><section><h2 class=txt>Home</h2><img src="+img+"><img src="+img1+"><img src="+img2+"><p class=txt>"+desc+"</p><br></section><section><h2 class=txt>Menu</h2><h3 class=txt>" +menuSection+"</h3><img src="+dishImg+"><p class=txt>"+dishName+"</p><p class=txt>Price: "+dishPrice+"</p><p class=txt>Description: "+dishDesc+"</p><br></section><section><h2 class=txt>Contact Us</h2><p class=txt>Phone Number: "+phoneNum+"</p><p class=txt>email: "+email+"</p><p class=txt>City, State, Zip: "+csz+"</p><p class=txt>Yelp Link: "+yelpLink+"</p><p class=txt>Facebook Link: "+fbookLink+"</p><p class=txt>Google Business Page Link: "+googbizLink+"</p></section></body></html>";
+    var html = "<html><head></head><body><h1 id=title class=txt>"+name+"</h1><nav><ul id=nav><li class=lis><a class=target href=#targetHome>Home</a></li><li class=lis><a class=target href=#targetMenu>Menu</a></li><li class=lis><a class=target href=#targetContact>Contact us</a></li></ul></nav><section><h2 class=txt><a name=targetHome>Home</a></h2><img src="+img+"><img src="+img1+"><img src="+img2+"><p class=txt>"+desc+"</p><br></section><section><h2 class=txt><a name=targetMenu>Menu</a></h2><h3 class=txt>" +menuSection+"</h3><img src="+dishImg+"><p class=txt>"+dishName+"</p><p class=txt>Price: "+dishPrice+"</p><p class=txt>Description: "+dishDesc+"</p><br></section><section><h2 class=txt><a name=targetContact>Contact Us</a></h2><p class=txt>Phone Number: "+phoneNum+"</p><p class=txt>email: "+email+"</p><p class=txt>City, State, Zip: "+csz+"</p><p class=txt>Yelp Link: "+yelpLink+"</p><p class=txt>Facebook Link: "+fbookLink+"</p><p class=txt>Google Business Page Link: "+googbizLink+"</p></section></body></html>";
     newSite.document.open();
     newSite.document.write(html);
-    newSite.document.getElementById("nav").style.backgroundColor = navbarColor;
+    newSite.document.body.style.width = "1000px";
+    newSite.document.body.style.margin = "0 auto";
+    newSite.document.body.style.paddingTop = "30px";
+    var nav = newSite.document.getElementById("nav");
+    nav.style.backgroundColor = navbarColor;
+    nav.style.listStyleType = "none";
+    nav.style.margin = 0;
+    nav.style.padding = 0;
+    nav.style.overflow = "hidden";
     newSite.document.body.style.backgroundColor = backColor;
     var txt = newSite.document.getElementsByClassName("txt");
     for (i = 0; i < txt.length; i++) {
         txt[i].style.color = textColor;
         txt[i].style.fontFamily = bodyFont;
     }
+    var navli = newSite.document.getElementsByClassName("lis");
+    for (j = 0; j < navli.length; j++) {
+        navli[j].style.float = "left";
+        navli[j].style.display = "block";
+        navli[j].style.textAlign = "center";
+        navli[j].style.padding = "10px 100px";
+    }
     newSite.document.getElementById("title").style.fontFamily = titleFont;
-    
+    var navlinks = newSite.document.getElementsByClassName("target");
+    for (k = 0; k < navlinks.length; k++) {
+        navlinks[k].style.textDecoration = "none";
+        navlinks[k].style.color = navbarText;
+    }
     newSite.document.close();
 });
