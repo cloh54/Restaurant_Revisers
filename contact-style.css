@@ -1,8 +1,12 @@
 @media only screen and (min-width: 769px) {
+    #centerwrap {
+    width: 1000px;
+    margin: 0 auto;
+    }
     .row {
         display: flex;
         justify-content: space-around;
-    }   
+    }
     .logo {
         padding-top: 30px;
     }
@@ -12,7 +16,7 @@
     .row {
         display: flex;
         justify-content: space-around;
-    }  
+    }
     .logo {
         padding-top: 30px;
         width: 250px;
@@ -25,4 +29,3 @@
         padding-top: 20px;
     }
 }
-
