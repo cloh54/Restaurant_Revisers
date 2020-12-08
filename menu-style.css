@@ -1,4 +1,8 @@
 @media only screen and (min-width: 769px){
+    body{
+        width: 1000px;
+        margin: 0 auto;
+    }
     .row {
         display: flex;
     }
