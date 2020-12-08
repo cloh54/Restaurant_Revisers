@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<div id = "centerwrap">
 <html>
     <head>
 	   <link rel="stylesheet" type="text/css" href="indexstyle.css">
@@ -10,7 +11,7 @@
         <h3 class="changeGreen">Fill out info on your restaurant: </h3>
         <form target="_blank">
             <label class="changeGreen" for="rname">Name of restaurant:</label><br>
-            <input type="text" class="changeBox" id="rname"><br>		
+            <input type="text" class="changeBox" id="rname"><br>
             <label for="rdesc" class="changeGreen">Description of restaurant:</label><br>
             <input type="text" id="rdesc" class="changeBox" name="rdesc"><br>
 	    <div id="address">
@@ -36,7 +37,7 @@
             <input type="file" id="img1" class="changeWhite" accept="image/*">
             <input type="file" id="img2" class="changeWhite" accept="image/*">
             <input type="button" id="imgb" value="Upload more images">
-            <div class="container">       
+            <div class="container">
 		<div id="menu-title">
                 	<h3 class="changeGreen">Fill out info on your menu:</h3>
                 </div>
@@ -45,7 +46,7 @@
                     	<label class="changeGreen" for="sec">Section of Menu (ex. Apps, Main. etc.):</label><br>
                    	 <input type="text" id="sec" class="changeBox"><br>
 		    </div>
-                    <div class="container">      
+                    <div class="container">
 			<div id="dish-name">
                         	<label class="changeGreen" for="dname">Dish name:</label><br>
                         	<input type="text" id="dname" class="changeBox"><br>
@@ -64,11 +65,11 @@
 			</div>
                     </div>
                     <input type="button" id="add-dish" value="Add another dish">
-                         
+
                 </div>
                 <input type="button" id="sec-button" value="Add another section to menu">
             </div>
-             
+
             <div class="socials">
                 <h3 class="changeGreen">Fill out info on any social media you'd like to link to: </h3>
                 <label class="changeGreen" for="yelp">Yelp page link:</label><br>
@@ -101,14 +102,15 @@
                     <option>Tahoma</option>
                     <option>Trebuchet MS</option>
                 </select><br>
-                
+
                 <br><br><br>
             </div>
             </div>
             <input type="submit" id="submit-button">
         </form>
         <input type="button" class="button" id="sample" value="See Sample">
-        
+
         <script src="index.js"></script>
     </body>
 </html>
+</div>

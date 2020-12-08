@@ -1,5 +1,9 @@
 @media only screen and (min-width: 769px) {
 
+	#centerwrap {
+		width: 1000px;
+		margin: 0 auto;
+	}
 	body {
 		background-color: aliceblue;
         padding-left: 20px;
@@ -65,7 +69,7 @@
 		position: relative;
 		bottom: 120px;
 	}
-	
+
 	#img1 {
 		position: relative;
 		bottom: 120px;
@@ -85,12 +89,12 @@
 		position: relative;
 		bottom: 70px;
 	}
-	
+
 	#section {
 		position: relative;
 		bottom: 42px;
 	}
-	
+
 	#dish-name {
 		position: relative;
 		left: 310px;
@@ -102,7 +106,7 @@
 		left: 490px;
 		bottom: 170px;
 	}
-	
+
 	#price {
 		width: 70px;
 	}
@@ -116,7 +120,7 @@
 	#ddesc {
 		width: 250px;
 	}
-	
+
 	#dish-pic {
 		position: relative;
 		left: 600px;
@@ -224,7 +228,7 @@
 		position: relative;
 		bottom: 120px;
 	}
-	
+
 	#img1 {
 		position: relative;
 		left: 75px;
@@ -247,12 +251,12 @@
 		position: relative;
 		bottom: 70px;
 	}
-	
+
 	#section {
 		position: relative;
 		bottom: 42px;
 	}
-	
+
 	#dish-name {
 		position: relative;
 		left: 310px;
@@ -264,7 +268,7 @@
 		left: 490px;
 		bottom: 170px;
 	}
-	
+
 	#price {
 		width: 70px;
 	}
@@ -278,7 +282,7 @@
 	#ddesc {
 		width: 250px;
 	}
-	
+
 	#dish-pic {
 		position: relative;
 		left: 310px;
@@ -355,7 +359,7 @@
 		left: 300px;
 		bottom: 138px;
 	}
-	
+
 	#addr {
 		width: 100px;
 	}
@@ -404,7 +408,7 @@
 		position: relative;
 		bottom: 120px;
 	}
-	
+
 	#img1 {
 		position: relative;
 		left: -257px;
@@ -427,12 +431,12 @@
 		position: relative;
 		bottom: 70px;
 	}
-	
+
 	#section {
 		position: relative;
 		bottom: 42px;
 	}
-	
+
 	#dish-name {
 		position: relative;
 		left: 310px;
@@ -448,7 +452,7 @@
 		left: 310px;
 		bottom: 128px;
 	}
-	
+
 	#price {
 		width: 70px;
 	}
@@ -462,7 +466,7 @@
 	#ddesc {
 		width: 70px;
 	}
-	
+
 	#dish-pic {
 		position: relative;
 		left: 310px;
